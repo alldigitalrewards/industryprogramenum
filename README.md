@@ -8,7 +8,6 @@ This centralizes the Industry listings of our Programs for our application servi
 Via Composer
 
 ``` bash
-composer config repositories.industryprogramenum vcs git git clone git@bitbucket.org:alldigitalrewards/industryprogramenum.git
 composer require alldigitalrewards/industryprogramenum
 ```
 
