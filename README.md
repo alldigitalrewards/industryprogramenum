@@ -9,7 +9,7 @@ Via Composer
 
 ``` bash
 composer config repositories.industryprogramenum vcs git git clone git@bitbucket.org:alldigitalrewards/industryprogramenum.git
-$ composer require alldigitalrewards/industryprogramenum
+composer require alldigitalrewards/industryprogramenum
 ```
 
 ## Current Levels
@@ -23,8 +23,13 @@ $ composer require alldigitalrewards/industryprogramenum
     const Rebates = 7
 ```
 
+##Usage
+```bash
+refer to tests 
+```
+
 ## Testing
 
 ``` bash
-$ composer test
+composer test
 ```
