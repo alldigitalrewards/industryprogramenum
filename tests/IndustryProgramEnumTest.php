@@ -63,6 +63,7 @@ class IndustryProgramEnumTest extends TestCase
     {
         $this->assertSame(null, (new IndustryProgramEnum())->hydrate(8, true)); //adding more constants this will fail eventually
         $this->assertSame(null, (new IndustryProgramEnum())->hydrate('rebate', true));
+        $this->assertSame(null, (new IndustryProgramEnum())->hydrate(null, true));
     }
 
     public function testHydrateNameReturnsNameStringAssertionIsTrue()
