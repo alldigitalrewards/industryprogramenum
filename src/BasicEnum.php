@@ -7,7 +7,7 @@ use ReflectionException;
 
 abstract class BasicEnum
 {
-    private static ?array $constCacheArray = null;
+    private static $constCacheArray = null;
 
     /**
      * @return array|mixed
